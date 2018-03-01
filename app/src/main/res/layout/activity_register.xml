@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context="id.co.digitalindo.loginregisterandroid.RegisterActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:gravity="center"
+        android:id="@+id/registerName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:gravity="center"
+        android:id="@+id/registerEmail"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"
+        android:gravity="center"
+        android:id="@+id/registerMobile"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:gravity="center"
+        android:id="@+id/registerPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmasi Password"
+        android:gravity="center"
+        android:id="@+id/registerConfirmasi"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:background="@android:color/background_dark"
+        android:id="@+id/buttonSignup"/>
+
+</LinearLayout>
